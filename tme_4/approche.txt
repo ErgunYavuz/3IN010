@@ -1,0 +1,5 @@
+L’approche par la pratique sera privilégiée : par des Exemples, des mises en situation et des exercices 
+concrets. En ce sens pour chaque chapitre, cinq exercices seront proposés afin de respecter ces missions.
+Ils permettront d’illustrer les points de cours, de se confronter à la rigueur mathématique et de préparer
+le partiel de fin de semestre. Parmi ces 5 exercices, deux seront faits durant chaque séance, corrigés et
+détaillés. Nous pourrons également voir la correction d’un troisième, qui portera sur la séance passé

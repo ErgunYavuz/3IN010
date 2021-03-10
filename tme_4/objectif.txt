@@ -1,0 +1,5 @@
+L’objectif du cours est de présenter les outils mathématiques liés à la data science et au machine 
+learning. Cela s’étend autour de notions de statistiques et de notions d’algèbre. L’intérêt est donc 
+à la fois d’appréhender des notions de cours indispensables à l’application et la mise en place du 
+Machine Learning dans le rôle de l’entreprise. Pour autant, l’accent sera mis sur l’intuition et 
+les exemples concrets en jeux de hasard, en sociologie et politique notamment. 

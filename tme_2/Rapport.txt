@@ -1,0 +1,19 @@
+EXERCICE 1
+1.  On constate qu'apres 5 seconde de pose on a le resultat de la commande time 
+    qui nous donne le temps d'exec de la commande 
+
+2.  Que le temps d'execution total de loopcpu est egale au temps d'execution user 
+    et que le temps d'execution systeme est 0 ( on ne fait pas d'appelle system)
+    
+    real    0m9.527s
+    user    0m9.531s
+    sys     0m0.000s
+
+3.  On constante que le temps d'execution en mode system est de 7.297s 
+    et 2.25s pour le mode user 
+    pour un temps d'exec total de 9.553 = systeme + user
+
+
+EXERCICE 5 
+1. ps a priorité de 80
+2. ps a maintenant priorité de 61

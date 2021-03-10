@@ -1,0 +1,43 @@
+EXERCICE 3:
+result RandomElect q = 1s
+PID     FUNCTION        REAL-TIME       CPU-TIME        WAITING-TIME
+--------------------------------------------------------------------
+0       Function0       5.658s          2.181s          3.478s
+1       Function1       3.750s          2.202s          1.548s
+2       Function2       1.182s          0.182s          1.000s
+3       Function3       0.821s          0.182s          0.639s
+4       Function4       3.749s          0.182s          3.568s
+5       Function5       3.387s          0.182s          3.206s
+6       Function6       1.093s          0.182s          0.911s
+7       Function7       2.455s          0.182s          2.273s
+8       Function8       1.997s          0.182s          1.815s
+9       Function9       0.545s          0.182s          0.363s
+--------------------------------------------------------------------
+Average:                2.464s          0.584s          1.880s
+--------------------------------------------------------------------
+
+
+
+
+result ApproxSJF q = 1s
+PID     FUNCTION        REAL-TIME       CPU-TIME        WAITING-TIME
+--------------------------------------------------------------------
+0       Function0       5.654s          2.195s          3.459s
+1       Function1       5.842s          2.188s          3.654s
+2       Function2       2.183s          0.182s          2.001s
+3       Function3       1.823s          0.182s          1.641s
+4       Function4       1.547s          0.182s          1.365s
+5       Function5       1.182s          0.182s          1.001s
+6       Function6       1.098s          0.182s          0.916s
+7       Function7       0.736s          0.182s          0.554s
+8       Function8       1.088s          0.182s          0.906s
+9       Function9       0.725s          0.182s          0.543s
+--------------------------------------------------------------------
+Average:                2.188s          0.584s          1.604s
+--------------------------------------------------------------------
+Le mode ApproxSJF a un waiting time plus court car 
+les tâches sont plus rapidement terminées donc moins de tâches attendent leur tour.
+
+
+dans le cas où une tache a moins de prio elle se fait continuellement depasser par de nouvelles taches.
+Pour résoudre ce problème il suffit d'augmenter la priorité des tache au bout d'un certain temps.
